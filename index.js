@@ -1,7 +1,7 @@
-var sum = 1 + 4;
-var difference = 3;
-var product = 15;
-var quotient = 7.5;
-var remainder = 1;
+let sum = 1 + 4;
+let difference = sum - 2;
+let product = difference * 5;
+let quotient = product / 2;
+let remainder = product % 2;
 
-document.getElementById("result")(innerHTML).toBe
+document.getElementById("result").innerHTML = quotient;
