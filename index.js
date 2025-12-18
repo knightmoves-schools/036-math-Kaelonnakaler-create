@@ -4,4 +4,4 @@ var product = 15;
 var quotient = 7.5;
 var remainder = 1;
 
-document.getElementById("result").toBe('${quotient}');
+document.getElementById("result").toBe(7.5);
